@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+.margin {
+  background-color: #282828;
+  align-items: center;
+  display: flex;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  left: 100px;
+}
+.japanese_flag{
+    height: 25px;
+}
+.header_links{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    gap: 50px;
+}
+a{
+    font-size: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main_content{
+    margin-top: 50px;
+    justify-items: center;
+    padding-bottom: 100px;
+}
+.homepage_cover {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.content_title{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.red_circle{
+    border-radius: 50px;
+    background-color: #BE0029;
+    height: 100px;
+    width: 100px;
+}
+.paragraph_japan{
+    margin-top: 20px;
+    text-indent: 2em;
+    text-align: justify;
+    font-size: large;
+    width: 700px;
+}
