@@ -79,7 +79,7 @@ td{
 }
 
 .destination_link:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px #282828;
     transform: scale(1.02);
     transition: 0.2s ease-in-out;
     border-radius: 30px;
