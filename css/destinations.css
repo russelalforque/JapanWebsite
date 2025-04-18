@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+}
+
+.margin {
+    background-color: #282828;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    left: 100px;
+}
+
+.japanese_flag {
+    height: 25px;
+}
+
+.header_links {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    gap: 50px;
+}
+
+.page_link, .text_japan{
+    font-size: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main_content{
+    margin-top: 50px;
+    justify-items: center;
+    padding-bottom: 100px;
+}
+.destinations_cover {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+h1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: #BE0029;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+td{
+    width: 350px;
+    height: 430px;
+    padding: 20px;
+}
+.container_destination{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 5px #282828;
+}
+.destination_link{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.destination_link:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+    transition: 0.2s ease-in-out;
+    border-radius: 30px;
+  }
+  
+.destination_image{
+    border-radius: 30px;
+}
+p{
+    text-align: justify;
+}
