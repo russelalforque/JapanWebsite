@@ -3,7 +3,11 @@
 }
 
 body{
-    background-color: #f7e7c1;
+    background-image: url('../images/bg.svg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
 }
 .margin {
     background-color: #282828;
@@ -15,6 +19,17 @@ body{
     left: 0;
     width: 100%;
     z-index: 1000;
+}
+
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+    height: 80px;
+    width: 100%;
+    padding: 20px 20px;
 }
 
 .logo {
@@ -36,7 +51,7 @@ body{
     gap: 50px;
 }
 
-.page_link, .text_japan{
+.page_link, .text_japan, h3{
     font-size: 20px;
     color: antiquewhite;
     text-decoration: none;
@@ -46,7 +61,7 @@ body{
 .main_content{
     margin-top: 50px;
     justify-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 .destinations_cover {
     width: 100%;
