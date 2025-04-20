@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+body{
+    background-color: #f7e7c1;
+}
 .margin {
     background-color: #282828;
     align-items: center;
@@ -55,39 +58,44 @@ h1{
     margin-bottom: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h2{
+.destination_name{
     color: #BE0029;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-td{
-    width: 350px;
-    height: 430px;
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
     padding: 20px;
+    margin: 20px 20px;
 }
+
 .container_destination{
     display: flex;
     flex-direction: column;
+    background-color: aliceblue;
     gap: 20px;
     padding: 20px 20px;
     border-radius: 30px;
     box-shadow: 0px 4px 5px #282828;
 }
+
 .destination_link{
     display: block;
     color: inherit;
     text-decoration: none;
 }
 
-.destination_link:hover {
+.container_destination:hover {
     box-shadow: 0 0 10px #282828;
     transform: scale(1.02);
     transition: 0.2s ease-in-out;
     border-radius: 30px;
   }
-  
+
 .destination_image{
     border-radius: 30px;
 }
-p{
+.destination_description{
     text-align: justify;
 }
