@@ -74,6 +74,7 @@ body {
     object-fit: cover;
 }
 
+/* container for each item */
 .food_container{
     display: flex;
     flex-direction: row;
@@ -89,6 +90,7 @@ body {
     width: 80%;
 }
 
+/* container for childreen that are text */
 .text_container{
     display: flex;
     flex-direction: column;
